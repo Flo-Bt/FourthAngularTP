@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "dd88dbc5-9e47-4e2d-917f-9a6ff9f09e8f"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -79,23 +82,7 @@
             "browserTarget": "fourthangulartp:build"
           }
         },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
-            "tsConfig": "tsconfig.spec.json",
-            "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
-          }
-        },
+
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
